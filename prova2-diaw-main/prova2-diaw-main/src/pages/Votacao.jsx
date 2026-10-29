@@ -24,7 +24,7 @@ function Votacao() {
       {ultimoVoto && (
         <div className="mensagem-voto" role="status">
           <p>
-            Voto registrado para eliminar <strong>{ultimoVoto.nome}</strong>. Você já votou{' '}
+            Voto registrado <strong>{ultimoVoto.nome}</strong>. Você já votou{' '}
             {votosNaSessao} {votosNaSessao === 1 ? 'vez' : 'vezes'}.
           </p>
           <Link to="/resultado">Ver resultado</Link>

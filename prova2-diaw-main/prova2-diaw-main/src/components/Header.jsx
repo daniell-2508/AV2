@@ -11,7 +11,7 @@ function Header() {
       <nav className="topo-menu">
         <NavLink to="/" end>Início</NavLink>
         <NavLink to="/votacao">Votar</NavLink>
-        <NavLink to="/resultado">Resultado</NavLink>
+        <NavLink to="/resultado">Resultado Final</NavLink>
       </nav>
     </header>
   );

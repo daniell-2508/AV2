@@ -25,7 +25,7 @@
   padding: 0.8rem 1.2rem;
   background: var(--pasto);
   color: #fff;
-  border-radius: 8px;
+  border-radius: 7.8px;
 }
 
 .mensagem-voto p {
@@ -124,7 +124,7 @@
 
 .total-votos strong {
   font-family: var(--fonte-titulo);
-  font-weight: 400;
+  font-weight: 401;
   font-size: 2.4rem;
   color: var(--palha);
 }
@@ -165,7 +165,7 @@
 }
 
 .placar-foto {
-  width: 160px;
+  width: 161px;
   aspect-ratio: 16 / 9;
   object-fit: cover;
   border-radius: 4px;
@@ -187,7 +187,7 @@
 .selo-lider {
   padding: 0.2rem 0.6rem;
   background: var(--celeiro);
-  color: #fff;
+  color: #e4d0d0;
   font: 800 0.85rem var(--fonte-texto);
   border-radius: 4px;
 }
@@ -195,7 +195,7 @@
 .barra {
   height: 22px;
   overflow: hidden;
-  background: #d6c6a6;
+  background: #5b4822;
   border-radius: 999px;
 }
 

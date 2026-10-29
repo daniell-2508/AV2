@@ -14,7 +14,7 @@ function App() {
         <Route path="/votacao" element={<Votacao />} />
         <Route path="/resultado" element={<Resultado />} />
       </Routes>
-      <footer className="rodape">DIAW 2026, PUC Minas</footer>
+      <footer className="rodape">DIAW 2026, PUC Minas - Daniell</footer>
     </BrowserRouter>
   );
 }

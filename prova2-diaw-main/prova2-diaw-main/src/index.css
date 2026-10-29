@@ -5,14 +5,14 @@
 @font-face { font-family: 'Nunito'; src: url('/fonts/nunito-800.woff2') format('woff2'); font-weight: 800; font-display: swap; }
 
 :root {
-  --madeira-escura: #3a2211;
+  --madeira-escura: #402410;
   --madeira: #6b4423;
   --madeira-clara: #9a6a3c;
   --palha: #f2cf73;
   --papel: #f4e6c4;
   --tinta: #2b1a0c;
-  --celeiro: #b5332a;
-  --pasto: #4f7f3a;
+  --celeiro: #a52b22;
+  --pasto: #599340;
 
   --fonte-titulo: 'Rye', 'Georgia', serif;
   --fonte-texto: 'Nunito', 'Segoe UI', system-ui, sans-serif;

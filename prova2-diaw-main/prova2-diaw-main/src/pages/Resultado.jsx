@@ -29,7 +29,7 @@ function Resultado() {
 
       {total === 0 ? (
         <div className="resultado-vazio">
-          <p>Nenhum voto ainda. Escolha quem sai da roça para ver a parcial.</p>
+          <p>Nenhum voto ainda! Escolha quem vai sair da fazenda para ver a parcial.</p>
           <Link to="/votacao" className="botao botao-principal">Ir para a votação</Link>
         </div>
       ) : (
@@ -38,22 +38,22 @@ function Resultado() {
             {resultado.map((p, indice) => (
               <li key={p.id} className={indice === 0 ? 'placar-item placar-lider' : 'placar-item'}>
                 <img src={p.foto} alt={p.nome} className="placar-foto" />
-                <div className="placar-info">
-                  <h2>
+          <div className="placar-info">
+       <h2>
                     {p.nome}
-                    {indice === 0 && <span className="selo-lider">Sairia hoje</span>}
+                    {indice === 0 && <span className="selo-lider">Sair hoje</span>}
                   </h2>
-                  <div className="barra">
-                    <div
+        <div className="barra">
+          <div
                       className="barra-preenchida"
                       style={{ width: `${p.percentual}%` }}
                     />
-                  </div>
+   </div>
                   <p className="placar-numeros">
-                    {p.percentual.toLocaleString('pt-BR', { maximumFractionDigits: 1 })}% ({p.votos}{' '}
+       {p.percentual.toLocaleString('pt-BR', { maximumFractionDigits: 1 })}% ({p.votos}{' '}
                     {p.votos === 1 ? 'voto' : 'votos'})
                   </p>
-                </div>
+      </div>
               </li>
             ))}
           </ol>
